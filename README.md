@@ -1,11 +1,18 @@
 # Stem Day 2016
+*As a web developer, I frequently write small prototype applications to try out a feature or view a style.  I want to demonstrate this process to the children by making a prototype web page where we click a button and have an image spin around in circles.* 
+
+*Additionally, modern web browsers like Chrome allow us to look at the "internals" of any web page and try out minor adjustments on the fly.  We will use this tool to apply what we learned in the demo web page to real websites that are published on the web.*  
+
+## Prerequesites
++ A text editor to edit the page.  Something like notepad is fine, but I recommend [Visual Studio Code](https://code.visualstudio.com/)
++ A modern web browser like Chrome, Firefox, or Edge to view the web page.
 
 ## Files
 To see each web page simply double click the file and it will open in your default browser.
-+ **stem_initial.html:** This is the empty template we started with in class. If you open it, it is just an blank web page.
++ **stem_initial.html:** This is the empty template we started with in class. If you open it, it is just a blank web page.
 + **stem.html:** This is the web page we completed in class. 
 
-*Feel free to experiment! If something doesn't work you can always download the files again and start from scratch*
+*Feel free to experiment! If something doesn't work, you can always download the files again and start from scratch.*
 
 
 ## Body
@@ -41,7 +48,7 @@ We wanted the button to be bigger so we increased the size of the text with a bu
 ```
 
 ## Code
-Finally, we added some javascript *code* in between the `<script>` and `</script>` tags. We didn't spend a lot of time on the details. This code was prepared ahead of time to "wire up" our button so that when we click it, it would *rotate* the image and set a *transition*.
+Finally, we added some javascript *code* in between the `<script>` and `</script>` tags. We didn't spend a lot of time on the details. This code was prepared ahead of time to "wire up" our button so that when we click it, the image will *transform* by rotating the specified degrees and do so in the number of seconds specified in the *transition*.
 ```
   window.onload = function() {
       var button = document.querySelector('button');
@@ -58,7 +65,7 @@ Finally, we added some javascript *code* in between the `<script>` and `</script
       }, 10);
   }
 ```
-The following two lines can be modified to *experiment* wih the web page. The **10s** represents "10 seconds". Change it values like 1s or 30s to see the difference in how long it takes to rotat the image. The **rotate(3600deg)** spins the image 3600 degrees like propellor.  Set the 3600deg to 90deg or even 10000deg to see it rotate more or less times.
+The following two lines can be modified to *experiment* wih the web page. The **10s** represents "10 seconds". Change it to values like 1s or 30s to see the difference in how long it takes to rotat the image. The **rotate(3600deg)** spins the image 3600 degrees like a propellor.  Set the 3600deg to 90deg or even 10000deg to see it rotate more or less times.
 ```
   starWarsImage.style.transition = "transform 10s";
   starWarsImage.style.transform = "rotate(3600deg)"; 
