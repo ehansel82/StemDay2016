@@ -65,7 +65,7 @@ Finally, we added some javascript *code* in between the `<script>` and `</script
       }, 10);
   }
 ```
-The following two lines can be modified to *experiment* wih the web page. The **10s** represents "10 seconds". Change it to values like 1s or 30s to see the difference in how long it takes to rotat the image. The **rotate(3600deg)** spins the image 3600 degrees like a propellor.  Set the 3600deg to 90deg or even 10000deg to see it rotate more or less times.
+The following two lines can be modified to *experiment* with the web page. The **10s** represents "10 seconds". Change it to values like 1s or 30s to see the difference in how long it takes to rotat the image. The **rotate(3600deg)** spins the image 3600 degrees like a propellor.  Set the 3600deg to 90deg or even 10000deg to see it rotate more or less times.
 ```
   starWarsImage.style.transition = "transform 10s";
   starWarsImage.style.transform = "rotate(3600deg)"; 
