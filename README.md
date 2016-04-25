@@ -8,6 +8,7 @@
 + A modern web browser like Chrome, Firefox, or Edge to view the web page.
 
 ## Files
+Click "Download Zip" in the upper right of your screen to download the files we used in class.
 To see each web page simply double click the file and it will open in your default browser.
 + **stem_initial.html:** This is the empty template we started with in class. If you open it, it is just a blank web page.
 + **stem.html:** This is the web page we completed in class. 
