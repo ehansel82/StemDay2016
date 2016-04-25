@@ -1,7 +1,7 @@
 # Stem Day 2016
-*As a web developer, I frequently write small prototype applications to try out a feature or view a style.  I want to demonstrate this process to the children by making a prototype web page where we click a button and have an image spin around in circles.* 
+*As a web developer, I need to write small demo web pages to try out a feature or view a style.  I want to show this process to the children by making a simple but fun little web page where we click a button and have a picture spin around in circles.* 
 
-*Additionally, modern web browsers like Chrome allow us to look at the "internals" of any web page and try out minor adjustments on the fly.  We will use this tool to apply what we learned in the demo web page to real websites that are published on the web.*  
+*Also, new web browsers like Chrome allow us to look at the "internals" of any web page and try out minor changes on the fly.  We will use Chrome to apply what we learned in the demo web page to real websites that are published on the web.*  
 
 ## Prerequesites
 + A text editor to edit the page.  Something like notepad is fine, but I recommend [Visual Studio Code](https://code.visualstudio.com/)
